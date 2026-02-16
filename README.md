@@ -2,15 +2,11 @@
 
 **Disang** is a lightweight, privacy-focused English-to-Assamese transliteration keyboard for Android. It allows users to type Assamese naturally using the Latin (English) alphabet.
 
----
-
 ## 🚀 Features
 * **Phonetic Transliteration:** Type `nomoskar` to get `নমস্কাৰ`.
 * **Smart Suggestions:** Handles the ambiguity of Assamese sibilants. Words containing `s`, `c`, or `x` provide multiple suggestions for `শ`, `ষ`, `স`, `চ`, and `ছ`.
 * **Juktakhor Support:** Use a period `.` to explicitly create conjunct characters (Juktakhors).
 * **Toggle Mode:** Easily switch between English (En) and Assamese (As) modes with a single tap.
-
----
 
 ## ⌨️ How to Use
 
@@ -30,11 +26,11 @@ The keyboard uses a toggle button to control the engine :
 | :--- | :--- | :--- |
 | `j` | `জ` |  |
 | `z` | `য` |  |
+| `b` | `ব` |  |
+| `w` | `ৱ` |  |
 | `zuktakhor` | `যুকতাখৰ` | Without junction |
 | `zuk.takhor` | `যুক্তাখৰ` | Use `.` for Juktakhor |
 | `khy` | `ক্ষ` | Common conjuncts are automatic |
-
----
 
 ## 📦 Installation
 Currently, Disang is in beta and not available on the Google Play Store.
@@ -43,7 +39,11 @@ Currently, Disang is in beta and not available on the Google Play Store.
 2. Open the file on your Android device.
 3. Allow "Install from Unknown Sources" if prompted.
 
----
+## 📺 Demo
+<video src="./demo.mov" width="320" controls>
+  Your browser does not support the video tag.
+</video>
+
 ## 📬 Contact
 If you have any questions or feedback feel free to reach out :
 [debaxom@gmail.com](mailto:debaxom@gmail.com)
