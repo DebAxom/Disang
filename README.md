@@ -28,8 +28,8 @@ The keyboard uses a toggle button to control the engine :
 
 | English Input | Assamese Output | Note |
 | :--- | :--- | :--- |
-| `j` | `জ` | Soft 'J' |
-| `z` | `য` | Joya |
+| `j` | `জ` |  |
+| `z` | `য` |  |
 | `zuktakhor` | `যুকতাখৰ` | Without junction |
 | `zuk.takhor` | `যুক্তাখৰ` | Use `.` for Juktakhor |
 | `khy` | `ক্ষ` | Common conjuncts are automatic |
