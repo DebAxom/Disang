@@ -39,7 +39,7 @@ The keyboard uses a toggle button to control the engine :
 ## 📦 Installation
 Currently, Disang is in beta and not available on the Google Play Store.
 
-1. [Download the latest APK](./disang.apk)
+1. [Download the latest APK](https://github.com/DebAxom/Disang/raw/refs/heads/main/distribution/disang-v1.apk)
 2. Open the file on your Android device.
 3. Allow "Install from Unknown Sources" if prompted.
 
