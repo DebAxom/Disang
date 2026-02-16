@@ -307,44 +307,6 @@ class TransliterationEngine {
         return words
     }
 
-    fun postProcess2(input: String): MutableList<String> {
-        val finalWords = mutableListOf<String>()
-        
-        val charList = input.map { it.toString() }.toMutableList()
-        if (charList.isEmpty()) return finalWords
-
-        if (charList[0] == "ং") charList[0] = "ঙ"
-        if (input.startsWith("ৰ্") && charList.size > 1) charList[1] = ""
-        if (input.endsWith('্')) charList[charList.size - 1] = " ।"
-
-        val baseWord = charList.joinToString("")
-
-        // Collect ALL possible variants from all handlers
-        val allVariants = mutableListOf<String>()
-        handleSX(baseWord).forEach { w ->
-            allVariants.addAll(handleO(w))
-        }
-
-        // Separate them into two groups to force the order
-        val removedOList = mutableListOf<String>()
-        val convertedOList = mutableListOf<String>()
-
-        allVariants.distinct().forEach { w ->
-            // If the word has no O-based vowels (ও or ো), it belongs in the 'removed' group
-            if (!w.contains("ও") && !w.contains("ো")) {
-                removedOList.add(w)
-            } else {
-                convertedOList.add(w)
-            }
-        }
-
-        // Combine: All "Removed" versions first, then the "Converted" versions
-        finalWords.addAll(removedOList)
-        finalWords.addAll(convertedOList)
-
-        return finalWords
-    }
-
     fun getSuggestions(raw_word: String): MutableList<String> {
 
         var word = raw_word.lowercase()
