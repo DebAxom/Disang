@@ -40,7 +40,9 @@ Currently, Disang is in beta and not available on the Google Play Store.
 3. Allow "Install from Unknown Sources" if prompted.
 
 ## 📺 Demo
-![Disang Keyboard Demo](demo.gif)
+<div>
+  <img src="demo.gif" height="300" alt="Disang Keyboard Demo">
+</div>
 
 ## 📬 Contact
 If you have any questions or feedback feel free to reach out :
