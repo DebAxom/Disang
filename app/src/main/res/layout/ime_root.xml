@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/imeRoot"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#202124">
+
+    <me.debaxom.disang.ui.KeyboardCanvasView
+        android:id="@+id/customKeyboard"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_gravity="bottom"/>
+</FrameLayout>
